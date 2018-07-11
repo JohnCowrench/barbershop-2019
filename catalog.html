@@ -6,14 +6,14 @@
     </head>
     <body>
         <header class="main-header">
-            <a class="main-header-logo" href="index.html"><img src="img/logo.svg" width="111" height="24" alt="Логотип Барбершоп «Бородинский»"></a>
             <nav class="main-navigation">
+                <a class="main-header-logo" href="index.html"><img src="img/logo.svg" width="111" height="24" alt="Логотип Барбершоп «Бородинский»"></a>
                 <ul class="site-navigation">
-                    <li><a href="info.html">Информация</a></li>
-                    <li><a href="news.html">Новости</a></li>
-                    <li><a href="price-list.html">Прайс-лист</a></li>
-                    <li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="#">Информация</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Прайс-лист</a></li>
+                    <li class="site-navigation-current"><a href="#">Магазин</a></li>
+                    <li><a href="#">Контакты</a></li>
                 </ul>
                 <ul class="user-navigation">
                     <li class="login-link">Вход</li>
@@ -27,62 +27,62 @@
                 <li><a href="catalog.html">Магазин</a></li>
                 <li class="breadcrumbs-current">Средства для ухода</li>
             </ul>
-            <section class="filters">
+            <section class="filtres">
                 <h2 class="visually-hidden">Фильтр товаров</h2>
                 <!--Здесь будет форма-->
             </section>
             <section class="catalog">
-                <h2 class="visually-hidden">Список средств для ухода</h2>
+                <h2 class="visually -hidden">Список товаров</h2>
                 <ul class="catalog-list">
-                    <li class="catalog-list-item">
+                    <li class="catalog-item">
                         <h3>
                             <a href="catalog-item.html">
                                 <span class="catalog-category">Набор для путешествий</span>
                                 <span class="catalog-item-name">«Baxter of California»</span>
                             </a>
                         </h3>
-                        <p class="catalog-item-image">
+                        <p class="product-image">
                             <a href="catalog-item.html">
                                 <img src="img/Product1.jpg" width="220" height="165" alt="Набор для путешествий «Baxter of California»">
                             </a>
                         </p>
-                        <p class="catalog-item-price">
+                        <p class="product-price">
                             <b>2 900 ₽</b>
                             <a class="button" href="#">Купить</a>
                         </p>
                     </li>
-                    <li class="catalog-list-item">
+                    <li class="catalog-item">
                         <h3>
                             <a href="catalog-item.html">
                                 <span class="catalog-category">Увлажняющий кондиционер</span>
                                 <span class="catalog-item-name">«Baxter of California»</span>
                             </a>
                         </h3>
-                        <p class="catalog-item-image">
-                            <a href="catalog-item.html">
+                        <p class="product-image">
+                            <a href="catalog-item.html" >
                                 <img src="img/Product2.jpg" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»">
                             </a>
                         </p>
-                        <p class="catalog-item-price">
+                        <p class="product-price">
                             <b>750 ₽</b>
                             <a class="button" href="#">Купить</a>
                         </p>
                     </li>
-                    <li>
+                    <li class="catalog-item">
                         <h3>
                             <a href="catalog-item.html">
                                 <span class="catalog-category">Гель для волос</span>
                                 <span class="catalog-item-name">«SUAVECITO»</span>
                             </a>
                         </h3>
-                        <p class="catalog-item-image">
+                        <p class="product-image">
                             <a href="catalog-item.html">
-                                <img src="img/Product3.jpg" width="220" height="165" alt="Гель для волос «SUAVECITO">
+                                <img src="img/Product3.jpg" width="220" height="165" alt="Гель для волос «SUAVECITO»">
                             </a>
                         </p>
-                        <p class="catalog-item-price">
+                        <p class="product-price">
                             <b>290 ₽</b>
-                            <a class="button" href="#">Купить</a>
+                            <a href="#">Купить</a>
                         </p>
                     </li>
                 </ul>
@@ -94,32 +94,38 @@
                 </ul>
             </section>            
         </main>
+
         <footer class="main-footer">
             <p class="footer-contacts">
                 Барбершоп «Бородинский»<br>
                 Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-                <a href="map.html">Как нас найти?</a>
+                <a href="map.html">Как нас найти?</a><br>
                 Телефон: +7(495)666-02-66
             </p>
             <div class="footer-social">
                 <b>Давайте дружить!</b>
                 <ul>
-                    <li><a class="social-button" href="#">Вконтакте</a></li>
-                    <li><a class="social-button" href="#">Фейсбук</a></li>
-                    <li><a class="social-button" href="#">Инстаграм</a></li>
+                    <li><a href="#">Вконтакте</a></li>
+                    <li><a href="#">Фейсбук</a></li>
+                    <li><a href="#">Инстаграм</a></li>
                 </ul>
             </div>
             <p class="footer-copyright">
                 <b>Разработано:</b>
-                <a href="#">HTML Academy</a>
+                <a href="#">HTMl Academy</a>
             </p>
         </footer>
-     
+    
         <section class="modal modal-login">
             <h2>Личный кабинет</h2>
             <p>Введите пожалуйста свой логин и пароль</p>
             <!--Здесь будет форма-->
             <span class="modal-close">x</span>
         </section>
+
+        <section class="modal modal-map">
+            <h2 class="visually-hidden">Как до нас добраться</h2>
+            <span class="modal-close">x</span>
+        </section>        
     </body>
 </html>
